@@ -45,12 +45,17 @@ Copy the generated questions into a text file named `questions.json` in your fol
   ```
 
 ### Step 5: Run the Benchmark
+In this case, we are evaluating the OpenAI GPT-3.5 Turbo.
 - Run the benchmark script:
   ```bash
-  python eval.py
+  inspect eval eval.py --model openai/gpt-3.5-turbo
   ```
 
 ### Step 6: Review Results
 After running the benchmark, Inspect AI will automatically generate a log file in your benchmark folder.
 
-### Step 7: Copy results to submission sheet
+### Step 7: Copy/paste score to [results.csv](/constitutionbench/results.csv)
+
+### Step 8: Repeat steps 5-7 for other models
+### Step 9: Submit Your Benchmark
+Submit your results.csv file.
