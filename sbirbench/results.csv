@@ -1,0 +1,16 @@
+model_name,overall_score
+openai/o3
+openai/gpt-4.1
+anthropic/claude-3-7-sonnet-20250219
+together/deepseek-ai/DeepSeek-V3
+anthropic/claude-3-5-haiku-20241022
+openai/o3-mini
+together/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo
+openai/gpt-4o
+together/meta-llama/Llama-4-Scout-17B-16E-Instruct
+google/gemini-2.0-flash
+together/meta-llama/Meta-Llama-3-70B-Instruct-Turbo
+openai/gpt-3.5-turbo,0.8
+together/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo
+together/google/gemma-2-9b-it
+together/mistralai/Mistral-Small-24B-Instruct-2501
