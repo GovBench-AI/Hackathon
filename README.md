@@ -57,6 +57,31 @@ After running the benchmark, Inspect AI will automatically generate a log file i
 ### Step 7 (Optional): View Results
 Inspect has a built in web UI that visualizes the `*.eval` files. By default, it's on `127.0.0.1:7575`
 
+```bash
+inspect view
+```
+Note: Make sure you run the visualization command in the same working directory as your `logs` directory.
+
+```bash
+$ tree -I '__pycache__'              
+.
+├── dataset.py
+├── eval.py
+├── logs
+│   ├── 2025-06-14T09-21-13-04-00_constitution-bench-freeform_9ViyxURM3ELjzE7xywG7oi.eval
+│   └── 2025-06-14T11-57-01-04-00_constitution-bench-freeform_5C4X6LExPEk644Z2CfZmNx.eval
+├── requirements.txt
+├── results.csv
+├── sample_prompt.txt
+└── sample_questions.json
+
+2 directories, 8 files
+$ inspect view
+Inspect View: file:///Users/justinwlin/Projects/personal/Hackathon/constitutionbench/logs
+======== Running on http://127.0.0.1:7575 ========
+(Press CTRL+C to quit)
+```
+
 <img width="1726" alt="image" src="https://github.com/user-attachments/assets/6ce7c08c-63e4-41d1-b7c7-3ce6bf582d0d" />
 
 
