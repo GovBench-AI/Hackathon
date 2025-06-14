@@ -1,0 +1,62 @@
+[
+  {
+    "input": "If a bill passes both the House and Senate, but the President does not sign it and Congress remains in session, what is the timeframe for it to become law without the President's signature, and what is the exception to this rule?",
+    "expected_output": "A bill that passes both the House of Representatives and the Senate, if not signed by the President, becomes a law after ten days (Sundays excepted) if Congress remains in session. The exception is if Congress by their Adjournment prevent its Return, in which Case it shall not be a Law.",
+    "document_reference": "Every Bill which shall have passed the House of Representatives and the Senate, shall, before it become a Law, be presented to the President of the United States; If he approve he shall sign it, but if not he shall return it, with his Objections to that House in which it shall have originated, who shall enter the Objections at large on their Journal, and proceed to reconsider it. If after such Reconsideration two thirds of that House shall agree to pass the Bill, it shall be sent, together with the Objections, to the other House, by which it shall likewise be reconsidered, and if approved by two thirds of that House, it shall become a Law. But in all such Cases the Votes of both Houses shall be determined by Yeas and Nays, and the Names of the Persons voting for and against the Bill shall be entered on the Journal of each House respectively, If any Bill shall not be returned by the President within ten Days (Sundays excepted) after it shall have been presented to him, the Same shall be a Law, in like Manner as if he had signed it, unless the Congress by their Adjournment prevent its Return, in which Case it shall not be a Law",
+    "question_category": "Reasoning"
+  },
+  {
+    "input": "Describe the process for amending the Constitution, including both methods of proposal and both methods of ratification, and any specific limitations mentioned.",
+    "expected_output": "Amendments to the Constitution can be proposed either by two-thirds of both Houses of Congress deeming it necessary, or by a Convention called upon the application of the Legislatures of two-thirds of the several States. Once proposed, amendments become valid when ratified by the Legislatures of three-fourths of the several States, or by Conventions in three-fourths thereof, as the one or the other mode of Ratification may be proposed by the Congress. A specific limitation is that no Amendment made prior to the Year One thousand eight hundred and eight shall in any Manner affect the first and fourth Clauses in the Ninth Section of the first Article, and no State, without its Consent, shall be deprived of its equal Suffrage in the Senate.",
+    "document_reference": "The Congress, whenever two thirds of both Houses shall deem it necessary, shall propose Amendments to this Constitution, or, on the Application of the Legislatures of two thirds of the several States, shall call a Convention for proposing Amendments, which in either Case, shall be valid to all Intents and Purposes, as Part of this Constitution, when ratified by the Legislatures of three-fourths of the several States, or by Conventions in three fourths thereof, as the one or the other Mode of Ratification may be proposed by the Congress; Provided that no Amendment which may be made prior to the Year One thousand eight hundred and eight shall in any Manner affect the first and fourth Clauses in the Ninth Section of the first Article; and that no State, without its Consent, shall be deprived of its equal Suffrage in the Senate",
+    "question_category": "Multicontext"
+  },
+  {
+    "input": "What specific actions constitute treason against the United States, and what is required for a conviction?",
+    "expected_output": "Treason against the United States consists only in levying War against them, or in adhering to their Enemies, giving them Aid and Comfort. For a conviction, there must be the Testimony of two Witnesses to the same overt Act, or a Confession in open Court.",
+    "document_reference": "Treason against the United States, shall consist only in levying War against them, or in adhering to their Enemies, giving them Aid and Comfort. No Person shall be convicted of Treason unless on the Testimony of two Witnesses to the same overt Act, or on Confession in open Court.",
+    "question_category": "Concretizing"
+  },
+  {
+    "input": "Under what specific conditions can the privilege of the Writ of Habeas Corpus be suspended?",
+    "expected_output": "The Privilege of the Writ of Habeas Corpus shall not be suspended, unless when in Cases of Rebellion or Invasion the public Safety may require it.",
+    "document_reference": "The Privilege of the Writ of Habeas Corpus shall not be suspended, unless when in Cases of Rebellion or Invasion the public Safety may require it.",
+    "question_category": "Constrained"
+  },
+  {
+    "input": "Compare the age and citizenship requirements for a Representative versus a Senator.",
+    "expected_output": "A Representative must have attained the Age of twenty five Years and been seven Years a Citizen of the United States. A Senator must have attained the Age of thirty Years and been nine Years a Citizen of the United States.",
+    "document_reference": "No Person shall be a Representative who shall not have attained to the Age of twenty five Years, and been seven Years a Citizen of the United States, and who shall not, when elected, be an Inhabitant of that State in which he shall be chosen. (Article I, Section 2, Page 2). AND No Person shall be a Senator who shall not have attained to the Age of thirty Years, and been nine Years a Citizen of the United States, and who shall not, when elected, be an Inhabitant of that State for which he shall be chosen",
+    "question_category": "Comparative"
+  },
+  {
+    "input": "If the President transmits a written declaration to the President pro tempore of the Senate and the Speaker of the House of Representatives stating an inability to discharge the powers and duties of their office, what is the immediate consequence?",
+    "expected_output": "If the President transmits such a written declaration, the Vice President shall immediately assume the powers and duties of the office as Acting President, until the President transmits a written declaration to the contrary.",
+    "document_reference": "Whenever the President transmits to the President pro tempore of the Senate and the Speaker of the House of Representatives his written declaration that he is unable to discharge the powers and duties of his office, and until he transmits to them a written declaration to the contrary, such powers and duties shall be discharged by the Vice President as Acting President.",
+    "question_category": "Hypothetical"
+  },
+  {
+    "input": "List the powers granted to Congress in Article I, Section 8, related to commerce and currency.",
+    "expected_output": "In Article I, Section 8, Congress is granted the power 'To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes;' and also 'To coin Money, regulate the Value thereof, and of foreign Coin, and fix the Standard of Weights and Measures;'",
+    "document_reference": "The Congress shall have Power To lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the United States; but all Duties, Imposts and Excises shall be uniform throughout the United States; To borrow Money on the credit of the United States; To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes; To establish an uniform Rule of Naturalization, and uniform Laws on the subject of Bankruptcies throughout the United States; To coin Money, regulate the Value thereof, and of foreign Coin, and fix the Standard of Weights and Measures;",
+    "question_category": "In-breadth"
+  },
+  {
+    "input": "Explain the process for filling a vacancy in the office of Vice President, according to the Constitution.",
+    "expected_output": "Whenever there is a vacancy in the office of the Vice President, the President shall nominate a Vice President who shall take office upon confirmation by a majority vote of both Houses of Congress.",
+    "document_reference": "Whenever there is a vacancy in the office of the Vice President, the President shall nominate a Vice President who shall take office upon confirmation by a majority vote of both Houses of Congress.",
+    "question_category": "Reasoning"
+  },
+  {
+    "input": "What are the specific protections guaranteed by the Fourth Amendment regarding searches and seizures?",
+    "expected_output": "The Fourth Amendment guarantees the right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures. It also states that no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.",
+    "document_reference": "The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.",
+    "question_category": "Concretizing"
+  },
+  {
+    "input": "Can a state impose duties on imports or exports? If so, under what conditions and with what implications for the federal treasury?",
+    "expected_output": "No State shall, without the Consent of the Congress, lay any Imposts or Duties on Imports or Exports, except what may be absolutely necessary for executing its inspection Laws. Furthermore, the net Produce of all such Duties and Imposts, laid by any State on Imports or Exports, shall be for the Use of the Treasury of the United States, and all such Laws shall be subject to the Revision and Controul of the Congress.",
+    "document_reference": "No State shall, without the Consent of the Congress, lay any Imposts or Duties on Imports or Exports, except what may be absolutely necessary for executing it's inspection Laws: and the net Produce of all Duties and Imposts, laid by any State on Imports or Exports, shall be for the Use of the Treasury of the United States; and all such Laws shall be subject to the Revision and Controul of the Congress.",
+    "question_category": "Constrained"
+  }
+]

@@ -1,0 +1,27 @@
+We are creating "ConstitutionBench," a benchmark to evaluate the performance of LLMs/AI on the US Constitution.  The benchmark will consist of a series of questions that are relevant to the US Constitution.
+
+Convert the following document to a series of ~10 benchmark questions.  More details:
+Expected Output Format: Ensure the output resembles a US Constitution chatbot tasked with helping US Government personnel with various tasks. You don't have to preface that you're a Chatbot, just directly give the response with no preamble.  Also, don't exchange pleasantries etc.
+Input Format: Mimic the kind of queries or statements personnel might ask a chatbot in their day-to-day work. The queries will be written in plain language, but specific.
+
+Task: The chatbot acts as a specialist in the US Constitution.
+Scenario: User is US Gov personnel who does work related to the US Constitution.  The questions they are related to all elements of US Constitution.
+
+Schema for each question you generate this json.  Make sure to generate 10 of these questions.
+[
+{
+"input": "sample input",
+"expected_output": "sample output",
+"document_reference": "quote from text referencing this question/answer",
+"question_category": "reasoning or multicontext or concretizing, etc"
+}
+]
+
+The questions should span these categories:
+Reasoning: Evolves the input to require multi-step logical thinking.
+Multicontext: Ensures that all relevant information from the context is utilized.
+Concretizing: Makes abstract ideas more concrete and detailed.
+Constrained: Introduces a condition or restriction, testing the model's ability to operate within specific limits.
+Comparative: Requires a response that involves a comparison between options or contexts.
+Hypothetical: Forces the model to consider and respond to a hypothetical scenario.
+In-breadth: Broadens the input to touch on related or adjacent topics.
