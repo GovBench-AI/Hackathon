@@ -3,7 +3,7 @@ from inspect_ai.scorer import exact, model_graded_fact,choice,answer,includes
 from inspect_ai.solver import (chain_of_thought, generate, self_critique,multiple_choice,
                                system_message)
 
-from src.dataset import joint_staff_questions, joint_staff_questions_mcq
+from dataset import constitution_benchmark_questions
 
 SYSTEM_MESSAGE = """You are an AI assistant designed to assist with answering questions about the US Constitution.
 
@@ -15,7 +15,7 @@ Please answer questions factually and provide a clear answer alongside relevant 
 @task
 def constitution_bench_freeform():
     return Task(
-        dataset=joint_staff_questions(),
+        dataset=constitution_benchmark_questions(),
         solver=[
             system_message(SYSTEM_MESSAGE),
             chain_of_thought(),
@@ -26,3 +26,4 @@ def constitution_bench_freeform():
     )
 
 
+# inspect eval eval.py --model openai/gpt-3.5-turbo
