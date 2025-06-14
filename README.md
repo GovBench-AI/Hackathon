@@ -27,6 +27,7 @@ View full conversation [here](https://aistudio.google.com/app/prompts?state=%7B%
 Copy the generated questions into a text file named `questions.json` in your folder. For ConstitutionBench, the questions are already provided in [`constitutionbench/sample_questions.json`](./constitutionbench/sample_questions.json).
 
 ### Step 4: Set up your Environment
+- Install [Inspect VS Code](https://marketplace.visualstudio.com/items?itemName=ukaisi.inspect-ai) extension. 
 - Set up virtual environment in your benchmark folder:
   ```bash
   python -m venv venv
@@ -48,3 +49,8 @@ Copy the generated questions into a text file named `questions.json` in your fol
   ```bash
   python eval.py
   ```
+
+### Step 6: Review Results
+After running the benchmark, Inspect AI will automatically generate a log file in your benchmark folder.
+
+### Step 7: Copy results to submission sheet
