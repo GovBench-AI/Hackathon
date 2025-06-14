@@ -54,6 +54,9 @@ In this case, we are evaluating the OpenAI GPT-3.5 Turbo.
 ### Step 6: Review Results
 After running the benchmark, Inspect AI will automatically generate a log file in your benchmark folder.
 
+### Step 7 (Optional): View Results
+Inspect has a built in web UI that visualizes the `*.eval` files. By default, it's on `127.0.0.1:7575`
+
 ### Step 7: Copy/paste score to [results.csv](/constitutionbench/results.csv)
 
 ### Step 8: Repeat steps 5-7 for other models
